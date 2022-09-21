@@ -22,8 +22,6 @@ let package = Package(
         .target(
             name: "SwiftUIToast",
             dependencies: []),
-        .testTarget(
-            name: "SwiftUIToastTests",
-            dependencies: ["SwiftUIToast"]),
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
